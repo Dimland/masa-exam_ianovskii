@@ -15,7 +15,7 @@
  - [ ] Private Role: A security role that is used in internal system processing
 
 2. **What is the role of a service in nodejs server architecture?** *=> 2 points*
- - [ ] Get the request from the router, treat the request parameters, prepare the response of the server to the consumer
+ - [V] Get the request from the router, treat the request parameters, prepare the response of the server to the consumer
  - [ ] Keep state of a specific logic portion of the system, provide processing of the data passed from the different controllers, parse the data and returned the processed response
  - [ ] To be the first element in the system that should service the consumer for his CRUD request to the server
  - [ ] To provide services to the system that do not require a state but should be used across the whole system
