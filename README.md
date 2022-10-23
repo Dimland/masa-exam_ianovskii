@@ -78,7 +78,7 @@ In SQL databases, we can use a stored procedure to make frequently used SQL quer
 To do this, we create a stored procedure with the required SQL query inside. And in the future, to execute SQL queries, we call the created procedure.
 
 13. **Git rebase** *=> 4 points*
-
+Git rebase is used to merge the changes of two branches. When we use git rebase we can rewrite a branch's commit history.
 14. **Generics** *=> 4 points*
 
 15. **Middleware** *=> 4 points*
