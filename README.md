@@ -122,6 +122,7 @@ You need to write a query that returns for each student his/her parents' informa
 | Mary Smith | Klark Smith (07-2134897) |
 | Patrice Raymond | Orphan |
 
+
 18. **Write a method in JS/TS that gets as an argument an array of numbers and returns the sum of all array members**. *=> 5 points*
  TS
 function sumArray(nums: number[]) {
@@ -151,6 +152,10 @@ function sumArray(nums: number[]) {
 			const zeroes: number = places - input.toString().length + 1;
 			return Array(+(zeroes > 0 && zeroes)).join("0") + input.toString();
 		}
+
+		The function takes 2 numbers "input" and "places".
+Calculates how many zeros will need to be added in the string: "places" - the number of characters in the "input" value +1.
+Next, we return a string from the number of zeros that were calculated and the value of "input". If the value of the number of zeros (zeroes) is less than zero, then zeros are not displayed.
 
 20. **Fix the following code and fill the required gaps in it by the coding standards. The purpose of this code is to verify the user is a member of a specific role and in case the user is the user data is returned by the isUserPermitted() method. Treat the comments as actual code written that should not be changed:** *=> 15 points*
 
