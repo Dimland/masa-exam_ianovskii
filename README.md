@@ -15,14 +15,14 @@
  - [ ] Private Role: A security role that is used in internal system processing
 
 2. **What is the role of a service in nodejs server architecture?** *=> 2 points*
- - [V] Get the request from the router, treat the request parameters, prepare the response of the server to the consumer
- - [ ] Keep state of a specific logic portion of the system, provide processing of the data passed from the different controllers, parse the data and returned the processed response
+ - [ ] Get the request from the router, treat the request parameters, prepare the response of the server to the consumer
+ - [V] Keep state of a specific logic portion of the system, provide processing of the data passed from the different controllers, parse the data and returned the processed response
  - [ ] To be the first element in the system that should service the consumer for his CRUD request to the server
  - [ ] To provide services to the system that do not require a state but should be used across the whole system
 
 3. **What is INNER JOIN?** *=> 2 points*
- - [V] A mechanism to link between to tables in the SQL query to bring data based on the same value in two tables. Allows NULL values on one on the sides of the JOIN
- - [ ] A mechanism to link between to tables in the SQL query to bring data based on the same value in two tables. Only non NULL values are accepted for both sides of the JOIN
+ - [ ] A mechanism to link between to tables in the SQL query to bring data based on the same value in two tables. Allows NULL values on one on the sides of the JOIN
+ - [V] A mechanism to link between to tables in the SQL query to bring data based on the same value in two tables. Only non NULL values are accepted for both sides of the JOIN
  - [ ] A way of executing to `foreach` loops in JS/TS while the internal loop uses values of the external loop
  - [ ] Such a term does not exist
 
@@ -30,7 +30,7 @@
  - [ ] 2xx
  - [ ] 3xx
  - [V] 4xx
- - [ ] 5xx
+ - [ ]  5xx
 
 5. **What is the correct flow a story?** *=> 2 points*
  - [ ] Software Detailed Design (SDD), Product design, QA review, UI design, Development, QA testing, Customer review
@@ -45,9 +45,9 @@
  - [V] All answers are correct
 
 7. **What is the most secure way to connect to SQL Server?** *=> 2 points*
- - [V] Integrated security
+ - [ ] Integrated security
  - [ ] Mixed mode
- - [ ] SQL Server login
+ - [V] SQL Server login
  - [ ] Application role
 
 8. **What is the correct pair of a protocol and the port for secure HTTP communication?** *=> 2 points*
@@ -63,8 +63,8 @@
  - [ ] Trigger is the mechanism by which the router is sending its data to the controller in nodejs server
 
 10. **Why would you use the JWT token? (more than a single answer can be selected)** *=> 2 points*
- - [ ] JWT tokens are encrypted
- - [V] It's a more secure way of handling authentication and authorization data than username and password
+ - [V] JWT tokens are encrypted
+ - [ ] It's a more secure way of handling authentication and authorization data than username and password
  - [V] JWT tokens are signed and this signature can be verified uniquely
  - [ ] All answers are correct
 
@@ -109,6 +109,38 @@ Middleware function for working with sql queries in typescript.
     
 		    return  date;
 	    }
+
+
+
+
+    public static addMonths(dateChanged: Date, value: number): Date {
+
+        let expectedMonth: number = (dateChanged.getMonth() + value);
+        if (expectedMonth > 11) {   
+
+            expectedMonth = expectedMonth % 12;
+        }
+
+        if (expectedMonth < 0) {
+            expectedMonth += 12;
+        }
+
+        dateChanged.setMonth(dateChanged.getMonth() + value);
+
+        const daysToAdd: number = dateChanged.getMonth() > expectedMonth ? -1 : 1;
+        let month = dateChanged.getMonth();
+        while (dateChanged.getMonth() !== expectedMonth) {
+            let date = dateChanged.setDate(dateChanged.getDate() + daysToAdd);
+        }
+
+        return dateChanged;
+    }
+
+console.log(addMonths(new Date("2020-10-30"), 1));
+
+
+
+
 
 17. **Having the following DB tables diagram:** *=> 10 points*
 
