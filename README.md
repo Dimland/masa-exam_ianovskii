@@ -82,6 +82,7 @@ Git rebase is used to merge the changes of two branches. When we use git rebase 
 14. **Generics** *=> 4 points*
 A generic, used in typescript to assign a variable type of a return type. When returning values, the specific data type will be used.
 15. **Middleware** *=> 4 points*
+Middleware function for working with sql queries in typescript.
 
  
 ## Part II: Practice on paper *=> 45 points*
