@@ -80,7 +80,7 @@ To do this, we create a stored procedure with the required SQL query inside. And
 13. **Git rebase** *=> 4 points*
 Git rebase is used to merge the changes of two branches. When we use git rebase we can rewrite a branch's commit history.
 14. **Generics** *=> 4 points*
-
+A generic, used in typescript to assign a variable type of a return type. When returning values, the specific data type will be used.
 15. **Middleware** *=> 4 points*
 
  
