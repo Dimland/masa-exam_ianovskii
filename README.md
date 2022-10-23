@@ -123,6 +123,27 @@ You need to write a query that returns for each student his/her parents' informa
 | Patrice Raymond | Orphan |
 
 18. **Write a method in JS/TS that gets as an argument an array of numbers and returns the sum of all array members**. *=> 5 points*
+ TS
+function sumArray(nums: number[]) {
+    let sum = 0;
+    for (let i = 0; i < nums.length; i++) {
+      sum += nums[i];
+    }
+    return sum;
+  }
+  
+  console.log(sumArray([44, 5, -4]));
+
+JS
+function sumArray(nums: number[]) {
+    let sum = 0;
+    for (let i = 0; i < nums.length; i++) {
+      sum += nums[i];
+    }
+    return sum;
+  }
+  
+  console.log(sumArray([44, 5, -4]));
 
 19. **Explain the following piece of code:** *=> 5 points*
 
