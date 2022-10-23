@@ -74,6 +74,8 @@
 Authentication is the process of verifying a password by a user entered with a password stored in a database. 
 Authorization is the granting of rights to the user to perform certain actions.
 12. **Stored procedure** *=> 3 points*
+In SQL databases, we can use a stored procedure to make frequently used SQL queries easier to call.
+To do this, we create a stored procedure with the required SQL query inside. And in the future, to execute SQL queries, we call the created procedure.
 
 13. **Git rebase** *=> 4 points*
 
