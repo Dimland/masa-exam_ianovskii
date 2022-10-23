@@ -71,7 +71,8 @@
 ## Section B: Please, explain the following terms the best way you can *=> 22 points*
 
 11. **Authentication & Authorization** *=> 7 points*
-
+Authentication is the process of verifying a password by a user entered with a password stored in a database. 
+Authorization is the granting of rights to the user to perform certain actions.
 12. **Stored procedure** *=> 3 points*
 
 13. **Git rebase** *=> 4 points*
