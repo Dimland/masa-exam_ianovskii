@@ -29,12 +29,12 @@
 4. **What is the code of a server error in HTTP protocol?** *=> 2 points*
  - [ ] 2xx
  - [ ] 3xx
- - [ ] 4xx
+ - [V] 4xx
  - [ ] 5xx
 
 5. **What is the correct flow a story?** *=> 2 points*
  - [ ] Software Detailed Design (SDD), Product design, QA review, UI design, Development, QA testing, Customer review
- - [ ] Customer request, Product design, UI design, SDD, QA review, Development, QA testing, Customer User Acceptance Testing (UAT)
+ - [V] Customer request, Product design, UI design, SDD, QA review, Development, QA testing, Customer User Acceptance Testing (UAT)
  - [ ] Product design, SDD, QA review, UI design, Development, QA testing, UAT
  - [ ] Customer request, UI design, Product design, UAT, QA review, Development, QA testing
 
@@ -42,10 +42,10 @@
  - [ ] Browser
  - [ ] Postman
  - [ ] Fiddler
- - [ ] All answers are correct
+ - [V] All answers are correct
 
 7. **What is the most secure way to connect to SQL Server?** *=> 2 points*
- - [ ] Integrated security
+ - [V] Integrated security
  - [ ] Mixed mode
  - [ ] SQL Server login
  - [ ] Application role
@@ -53,21 +53,20 @@
 8. **What is the correct pair of a protocol and the port for secure HTTP communication?** *=> 2 points*
  - [ ] HTTP:80
  - [ ] HTTPS:80
- - [ ] HTTPS:443
+ - [V] HTTPS:443
  - [ ] HTTP:443
 
 9. **What is a trigger?** *=> 2 points*
- - [ ] Trigger is a piece of code executed by the database engine whenever some action is performed on a database object like tables, view, etc.
+ - [V] Trigger is a piece of code executed by the database engine whenever some action is performed on a database object like tables, view, etc.
  - [ ] Trigger is a method that is called JS/TS environment whenever a certain event is fired to complete an asynchronous code execution
  - [ ] Trigger is a processing being performed right after the merge of a code to main branch in order to run a build for the system
  - [ ] Trigger is the mechanism by which the router is sending its data to the controller in nodejs server
 
 10. **Why would you use the JWT token? (more than a single answer can be selected)** *=> 2 points*
  - [ ] JWT tokens are encrypted
- - [ ] It's a more secure way of handling authentication and authorization data than username and password
- - [ ] JWT tokens are signed and this signature can be verified uniquely
+ - [V] It's a more secure way of handling authentication and authorization data than username and password
+ - [V] JWT tokens are signed and this signature can be verified uniquely
  - [ ] All answers are correct
-
 
 ## Section B: Please, explain the following terms the best way you can *=> 22 points*
 
