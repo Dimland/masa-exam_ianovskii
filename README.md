@@ -11,7 +11,7 @@
 1. **What is a PR?** *=> 2 points*
  - [ ] Program Result: the outcome of a programming effort available for testing
  - [ ] Public Relations: a practice of managing and influencing an organizational info to the public
- - [ ] Pull Request: a request to review the code of a developer prior to merging it main branch
+ - [V] Pull Request: a request to review the code of a developer prior to merging it main branch
  - [ ] Private Role: A security role that is used in internal system processing
 
 2. **What is the role of a service in nodejs server architecture?** *=> 2 points*
